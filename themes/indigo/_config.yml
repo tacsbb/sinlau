@@ -1,0 +1,126 @@
+# hexo-theme-indigo
+# https://github.com/yscoder/hexo-theme-indigo
+
+# 添加新菜單項遵循以下規則
+# menu:
+# link: fontawesome圖標，省略前綴，本主題前綴為 icon-，必須
+# text: About 菜單顯示的文字，如果省略即默認與圖標一致，首字母會轉大寫
+# url: /about 鏈接，絕對或相對路徑，必須。
+# target: _blank 是否跳出，省略則在當前頁面打開
+menu:
+  home:
+    text: 首頁
+    url: /
+  
+
+# 你的頭像url
+avatar: /img/avatar.jpg
+# avatar link
+avatar_link: /
+# 頭像背景圖
+brand: /img/brand.jpg
+# favicon
+favicon: /favicon.ico
+
+# email
+email: sub@sbb.cat
+
+# 設置 Android L Chrome 瀏覽器狀態欄顏色
+color: '#3F51B5'
+
+# 頁面標題
+tags_title: Tags
+archives_title: Archives
+categories_title: Categories
+
+# 文章截斷
+excerpt_render: false
+excerpt_length: 200
+excerpt_link: 繼續閱讀...
+mathjax: false
+archive_yearly: true
+
+# 是否顯示文章最後更新時間
+show_last_updated: false
+
+# 是否開啟分享
+share: false
+
+# 是否開啟打賞，關閉 reward: false
+reward: false
+
+
+# 是否開啟搜索
+search: false
+
+# 是否大屏幕下文章頁隱藏導航
+hideMenu: false
+
+# 是否開啟toc
+# toc: false
+toc:
+  list_number: true # 是否顯示數字排序
+
+# 文章頁留言內容，hexo中所有變量及輔助函數等均可調用，具體請查閱 hexo.io
+postMessage: 
+
+# 站長統計，如要開啟，輸入CNZZ站點id，如 cnzz: 1255152447
+cnzz: false
+
+# 百度統計，如要開啟，改為你的 key
+baidu_tongji: false
+
+# 騰訊分析，如要開啟，輸入站點id
+tajs: false
+
+# google
+google_analytics: false
+google_site_verification: false
+
+# less
+less:
+  compress: true
+  paths:
+    - source/css/style.less
+
+# 以下評論插件開啟一個即可
+# 是否開啟 disqus
+disqus_shortname: false
+# 是否開啟友言評論, 填寫友言用戶id
+uyan_uid: false
+# 是否開啟網易云跟帖， 填寫app sdk中的app key
+wangyi_ygt: false
+# 是否使用 gitment，https://github.com/imsun/gitment
+gitment: false
+# gitment:
+# owner:
+# repo:
+# client_id:
+# client_secret:
+
+# 規範網址
+# 讓搜索引擎重定向你的不同域名、不同子域、同域不同目錄的站點到你期望的路徑
+# https://support.google.com/webmasters/answer/139066
+# 假設配置為 canonical: http://imys.net，那麼從搜索引擎中 www.imys.net 進入會重定向到 imys.net
+canonical: false
+
+# 版權起始年份
+since_year: 2017
+
+# 用戶頁面中作者相關的描述性文字，如不需要設為 false
+about: false
+
+# “不蒜子”訪問量統計，詳見 http://ibruce.info/2015/04/04/busuanzi/
+visit_counter: false
+  
+
+# 動態定義title
+title_change:
+  normal: (つェ⊂)咦!又好了!
+  leave: 耶嘿黑！
+
+# 設置為 true 發布後將使用 unpkg cdn
+cdn: true
+
+# 設置為 true 將使用 lightbox render 圖片
+lightbox: true
